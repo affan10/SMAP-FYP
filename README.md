@@ -2,7 +2,7 @@
 
 The project aimed to predict daily closing and hourly stock prices of various stocks listed on the Pakistan Stock Exchange thereby being a source of timely guidance for investors
 
-System Features: Live data processing and technical analysis, User profile and statsa and Scalable to other stocks
+System Features: Live data processing and technical analysis, User profile and stats and Scalable to other stocks
 
 Technologies/language involved: Python, Apache Spark, Hadoop, D3.js, MySQL, Ubuntu, TensorFlow
 
