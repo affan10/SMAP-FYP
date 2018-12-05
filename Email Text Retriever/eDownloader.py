@@ -32,7 +32,7 @@ def downloadMessage(svr, n, fname):
     if resp != 'OK':
         raise Exception("Bad response: %s %s" % (resp, lst))
     f = open(fname, 'w')
-    #print fname
+    # print fname
     f.write(lst[0][1])
     f.close()
 
