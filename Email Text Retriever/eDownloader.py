@@ -99,10 +99,6 @@ def downloadMessage(svr, n, fname):
 
             print "Added in database"
 
-
-            # counter += 1
-            # counter2 += 1
-
         # else:
         #     print "Already present in database!"
 
@@ -116,8 +112,8 @@ def UIDFromFilename(fname):
 
 
 def get_credentials():
-    user = "mystockspk@gmail.com"
-    pwd = "mySTOCKSpk10"
+    user = ""
+    pwd = ""
     # user = raw_input("Gmail address: ")
     # pwd = getpass.getpass("Gmail password: ")
     return user, pwd
