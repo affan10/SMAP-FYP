@@ -41,7 +41,7 @@ def downloadMessage(svr, n, fname):
         if not filename:
             filename = str(uuid.uuid1()) + (mimetypes.guess_extension(mimetype) or '.txt')
         print "here"
-        #print filename
+        
         with open(filename, 'w') as stream:
             stream.write(content)
         # If message is not None then it is an instance of email.message.Message
