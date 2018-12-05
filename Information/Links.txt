@@ -1,0 +1,78 @@
+http://newspaper.readthedocs.io/en/latest/user_guide/quickstart.html
+
+https://media.readthedocs.org/pdf/newspaper/latest/newspaper.pdf
+
+https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html
+
+//Sqoop
+https://community.hortonworks.com/questions/81139/sqoop-import-from-sql-server-with-windows-authenti.html
+http://aviadezra.blogspot.com/2014/01/hdinsight-emulator-sqoop-with-sql.html
+
+//Prediction Model Techniques
+https://www.slideshare.net/RAJSHEKHARPATIL2/stock-market-prediction-technique
+
+//Python and Hadoop
+https://blog.cloudera.com/blog/2013/01/a-guide-to-python-frameworks-for-hadoop/
+https://blog.matthewrathbone.com/2013/11/17/python-map-reduce-on-hadoop-a-beginners-tutorial.html
+https://dwbi.org/etl/bigdata/183-setup-hadoop-cluster
+https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html
+
+//R
+http://tryr.codeschool.com/levels/1/challenges/19
+
+//SSH
+D0ntGu3$$M3
+https://mediatemple.net/community/products/dv/204404604/using-ssh-in-putty-
+https://mediatemple.net/community/products/dv/204403684/connecting-via-ssh-to-your-server
+https://mediatemple.net/community/products/dv/204404604/using-ssh-in-putty-
+
+//LibLinear Library for classification of text
+https://www.csie.ntu.edu.tw/~cjlin/libsvm/
+http://www.csie.ntu.edu.tw/~cjlin/papers/liblinear.pdf
+
+//Sentiment Analysis
+https://appliedmachinelearning.wordpress.com/2017/02/12/sentiment-analysis-using-tf-idf-weighting-pythonscikit-learn/
+
+// PDF Python
+https://automatetheboringstuff.com/chapter13/
+pypdf2
+
+// MySQL and Python
+https://dev.mysql.com/doc/connector-python/en/connector-python-example-cursor-transaction.html
+https://dev.mysql.com/doc/refman/5.7/en/fulltext-search.html
+http://www.vionblog.com/mysql-full-text-search-with-multiple-words/
+https://www.w3resource.com/mysql/mysql-full-text-search-functions.php
+
+//Google News API help
+https://stackoverflow.com/questions/15550655/web-scraping-google-news-with-python
+https://pypi.python.org/pypi/google_news_crawler/0.3.9
+
+//Scheduling
+https://stackoverflow.com/questions/15088037/python-script-to-do-something-at-the-same-time-every-day
+https://stackoverflow.com/questions/474528/what-is-the-best-way-to-repeatedly-execute-a-function-every-x-seconds-in-python
+https://docs.python.org/2/library/sched.html
+
+//Exchange rates
+http://www.cs.cornell.edu/courses/cs1133/2015fa/assignments/assignment1/index.php
+
+//Crude oil prices
+https://briandew.wordpress.com/2016/04/09/oil-price-data-with-python/
+
+/////// Important link Below for Quandl API//////////////
+https://docs.quandl.com/docs/python-time-series
+https://blog.quandl.com/api-for-commodity-data
+https://www.quandl.com/data/WGC/GOLD_DAILY_USD-Gold-Prices-Daily-Currency-USD
+https://www.quandl.com/tools/python
+
+//Spark
+https://spark.apache.org/docs/1.2.0/mllib-guide.html
+https://mapr.com/blog/apache-spark-machine-learning-tutorial/
+
+//Stocks Related Theory
+https://www.tradingview.com/wiki/Stochastic_(STOCH)
+https://www.investopedia.com/articles/technical/073001.asp
+https://www.investopedia.com/terms/a/atr.asp
+http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:average_true_range_atr
+https://www.investopedia.com/articles/trading/05/041805.asp
+https://www.investopedia.com/articles/active-trading/031914/how-traders-can-utilize-cci-commodity-channel-index-trade-stock-trends.asp
+http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:relative_strength_index_rsi
