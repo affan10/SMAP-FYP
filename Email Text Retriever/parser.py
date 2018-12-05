@@ -11,6 +11,6 @@ for content, filename, mimetype, message in Attachment.extract(message, False):
     print filename
     with open(filename, 'w') as stream:
         stream.write(content)
-    # If message is not None then it is an instance of email.message.Message
+    #If message is not None then it is an instance of email.message.Message
     if message:
         print "The file {0} is a message with attachments.".format(filename)
