@@ -1,4 +1,6 @@
-# Stock Market Analyzer & Predictor System (SMAP) - FYP: The project aimed to predict daily closing and hourly stock prices of various stocks listed on the Pakistan Stock Exchange
+# Stock Market Analyzer & Predictor System (SMAP) - FYP
+
+The project aimed to predict daily closing and hourly stock prices of various stocks listed on the Pakistan Stock Exchange thereby being a source of timely guidance for investors
 
 Technologies/language involved: Python, Apache Spark, Hadoop, D3.js
 
