@@ -7,26 +7,28 @@ import memcache
 import time
 import ftplib
 
-#flag = 0
+flag = 0
 
-# outcsv = open("out/UBL_act_pred.csv", 'w')
-# writer = csv.writer(outcsv)
-# writer.writerow(["time", "actual", "predicted"])
-# outcsv.close()
-# outcsv1 = open("out/HBL_act_pred.csv", 'w')
-# writer = csv.writer(outcsv1)
-# writer.writerow(["time", "actual", "predicted"])
-# outcsv1.close()
-# outcsv2 = open("out/ENGRO_act_pred.csv", 'w')
-# writer = csv.writer(outcsv2)
-# writer.writerow(["ti+me", "actual", "predicted"])
-# outcsv2.close()
-# outcsv3 = open("out/PSO_act_pred.csv", 'w')
-# writer = csv.writer(outcsv3)
-# writer.writerow(["time", "actual", "predicted"])
-# outcsv3.close()
+#
+outcsv = open("out/UBL_act_pred.csv", 'w')
+writer = csv.writer(outcsv)
+writer.writerow(["time", "actual", "predicted"])
+outcsv.close()
+outcsv1 = open("out/HBL_act_pred.csv", 'w')
+writer = csv.writer(outcsv1)
+writer.writerow(["time", "actual", "predicted"])
+outcsv1.close()
+outcsv2 = open("out/ENGRO_act_pred.csv", 'w')
+writer = csv.writer(outcsv2)
+writer.writerow(["ti+me", "actual", "predicted"])
+outcsv2.close()
+outcsv3 = open("out/PSO_act_pred.csv", 'w')
+writer = csv.writer(outcsv3)
+writer.writerow(["time", "actual", "predicted"])
+outcsv3.close()
 
 counter = 0
+#
 
 def outer():
 
@@ -49,27 +51,28 @@ def outer():
         counter = shared.get('Value')
 
     time.sleep(5)
-    # file_name = "counter.txt"
-    # path = '/home/hduser1/Desktop/ml/out'
-    # extension = '.txt'
-    # os.chdir(path)
-    # result = [i for i in glob.glob('*.{}'.format(extension))]
-    # print result
-    #
-    # while(len(result) != 1):
-    #     path = '/home/hduser1/Desktop/ml/out'
-    #     extension = '.txt'
-    #     os.chdir(path)
-    #     result = [i for i in glob.glob('*.{}'.format(extension))]
+#    
+    file_name = "counter.txt"
+    path = '/home/hduser1/Desktop/ml/out'
+    extension = '.txt'
+    os.chdir(path)
+    result = [i for i in glob.glob('*.{}'.format(extension))]
+    print result
+    
+    while(len(result) != 1):
+        path = '/home/hduser1/Desktop/ml/out'
+        extension = '.txt'
+        os.chdir(path)
+        result = [i for i in glob.glob('*.{}'.format(extension))]
 
-    # count_file = open("out/counter.txt","r")
-    # line = count_file.readlines()
-    # print line
-    #
-    # while(line[0] != str(len(result))):
-    #     count_file = open("out/counter.txt", "r")
-    #     line = count_file.readlines()
-
+    count_file = open("out/counter.txt","r")
+    line = count_file.readlines()
+    print line
+    
+    while(line[0] != str(len(result))):
+        count_file = open("out/counter.txt", "r")
+        line = count_file.readlines()
+ #
     session = ftplib.FTP('ftp.mystocks.pk', 'mystocks', 'wnyc(%C7o,b_')
     for items in result:
         names = items.split(".")
@@ -91,18 +94,22 @@ def outer():
                     #print val
 
         print val
-        # pred_csv = open("out/ubl_singval.csv","r")
-        # value = pred_csv.readlines()
-        # print value
+        #
+        pred_csv = open("out/ubl_singval.csv","r")
+        value = pred_csv.readlines()
+        print value
+        #
 
         file = open("out/" + names[0] + "_predvalonly.txt", "r")
         lines = file.readlines()
         #print lines
         print lines[0]
-
-        # with open("out/" + names[0] + "_act_pred.csv", 'a') as outcsv:
-        #     writer = csv.writer(outcsv)
-        #     writer.writerow(["time", "actual", "predicted"])
+        
+        #
+        with open("out/" + names[0] + "_act_pred.csv", 'a') as outcsv:
+            writer = csv.writer(outcsv)
+            writer.writerow(["time", "actual", "predicted"])
+        #
 
         with open("out/" + names[0] + "_act_pred.csv", 'a') as outcsv:
             writer = csv.writer(outcsv)
@@ -110,7 +117,7 @@ def outer():
             writer.writerow([time2, val[2], lines[0]])
 
         time.sleep(5)
-
+        #
         # file = open("out/" + names[0] +"_act_pred.csv", 'rb')
         # session.cwd("/public_html/data/" + names[0])
         # session.storbinary('STOR ' + names[0] + "_act_pred.csv" , file)
@@ -122,7 +129,7 @@ def outer():
         file.close()
         #file2.close()# send the file
         print "Done"
-
+        #
   # close file and FTP
     session.quit()
     #counter += 1
@@ -134,9 +141,8 @@ schedule.every(1).minutes.do(outer)
 while True:
     schedule.run_pending()
 
+
+# data = [{'time': time, 'actual': val[2], 'predicted':"NULL"}]
 #
-# # data = [{'time': time, 'actual': val[2], 'predicted':"NULL"}]
-# #
-# # with open('out/ubl2_predict.json', 'w') as outfile:
-# #     json.dump(data, outfile)
-#
+# with open('out/ubl2_predict.json', 'w') as outfile:
+#     json.dump(data, outfile)
