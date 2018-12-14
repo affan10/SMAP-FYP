@@ -20,4 +20,4 @@ Prediction done for HBL, UBL, ENGRO FERTILIZER, PSO and OGDCL
 
 Prediction accuracy: 80% above for both daily and hourly predictions
 
-Website: www.mystocks.pk
+Credits: To my FYP team mates, Hamza Jamshaid and Majid Ali Khan.
