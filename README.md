@@ -18,6 +18,4 @@ News source: Dawn.com, Ksebusiness.com, Ksenational.com, RSS feeds
 
 Prediction done for HBL, UBL, ENGRO FERTILIZER, PSO and OGDCL
 
-Prediction accuracy: 80% above for both daily and hourly predictions
-
 Credits: To my FYP team mates, Hamza Jamshaid and Majid Ali Khan.
