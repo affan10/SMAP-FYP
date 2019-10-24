@@ -10,12 +10,12 @@ For scraping: Goose, BeautifulSoup4
 
 For NLP news analysis: nltk(stemming, lemmatization, stopwords removal etc.) and Pysentiment(Python financial news sentiment library)
 
-For prediction: Univariate Long-Short Term Memory (LSTM) for hourly predictions and statistical analysis-based own-built algorithm for daily closing price predictions
+For prediction: Univariate Long-Short Term Memory (LSTM) for hourly predictions and indicators-based own-built algorithm for daily closing price predictions
 
 Data sources: Quandl, investing.com, nccpl and misc websites
 
 News source: Dawn.com, Ksebusiness.com, Ksenational.com, RSS feeds
 
-Prediction done for HBL, UBL, ENGRO FERTILIZER, PSO and OGDCL
+Prediction done for HBL, UBL, ENGRO FERTILIZER, PSO and OGDCL with 55 to 60% accuracy.
 
 Credits: To my FYP team mates, Hamza Jamshaid and Majid Ali Khan.
