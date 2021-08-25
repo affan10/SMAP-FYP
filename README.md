@@ -4,7 +4,7 @@ The project aimed to predict daily closing and hourly stock prices of various st
 
 System Features: Live data processing and technical analysis, User profile and stats and Scalable to other stocks
 
-Technologies/language involved: Python, Apache Spark, Hadoop, D3.js, MySQL, Ubuntu, TensorFlow
+Technologies/language involved: Python, Hadoop, D3.js, MySQL, Ubuntu, TensorFlow
 
 For scraping: Goose, BeautifulSoup4
 
